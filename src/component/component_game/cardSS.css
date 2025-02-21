@@ -1,10 +1,10 @@
 .cardSS {
   background-color: #fff3e0;
   border-radius: 15px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   width: 300px;
-  margin: 20px auto;
+  margin: 10px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   opacity: 0.8; /* Set opacity to 80% */
 }
@@ -32,8 +32,9 @@
 }
 
 .description {
-  margin: 20px 0;
+  margin: 7px 0;
   color: #777;
+  font-size: 12px;
 }
 
 .features {
@@ -46,7 +47,7 @@
 
 .feature {
   color: black;
-  border-radius: 5px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -74,5 +75,5 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 7px;
 }

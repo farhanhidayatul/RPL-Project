@@ -7,6 +7,7 @@
   padding: 20px;
   width: 300px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 500px;
 }
 
 .leaderboard-container-text {
@@ -156,7 +157,7 @@
 /* ✅ Leaderboard di gamePage (Desktop) */
 .leaderboard-gamePage {
   position: fixed;
-  right: 1180px;
+  right: 1160px;
   width: 300px;
 }
 
@@ -251,6 +252,64 @@
 /* ================================ */
 /* 📌 RESPONSIVE DESIGN */
 /* ================================ */
+
+/* Laptop ukuran <= 1366px */
+@media (max-width: 1366px) {
+  .leaderboard {
+    padding-top: 7px; 
+    padding-bottom: 3px;
+    padding-left: 8px;
+  }
+
+  .leaderboard-container-text {
+    font-size: 10px;
+    padding: 7px;
+    margin: 0 20px 5px 0;
+  }
+
+  .leaderboard-decs-text-1 {
+    width: 160px;
+  }
+
+  /*.leaderboard-decs-text-2 {
+    margin-right: 10px;
+  }*/
+
+  h2{
+    margin-left: 10px;
+  }
+
+  .leaderboard-gamePage {
+    top: 45vh;
+    right: 950px;
+  }
+
+  /*.rank-leaderboard {
+    width: 20px;   Ukuran tetap agar medal & nomor sejajar 
+    min-width: 20px;
+  }
+  
+  .medal {
+    width: 20px;  Ukuran medal tetap 
+    height: 20px;
+  }*/
+
+  /* Warna untuk posisi 1-3 */
+.top-three .player-name, .top-three .player-self .player-name {
+  width: 200px;
+  height: 30px;
+}
+
+/* Warna untuk posisi 4-9 */
+.top-ten .player-name, .top-ten .player-self .player-name {
+  width: 200px;
+  height: 30px;
+}
+
+.regular .player-name, .regular .player-self .player-name {
+  width: 160px;
+}
+}
 
 /* ✅ Tablet (Lebar max 1024px) */
 @media (max-width: 1024px) {
