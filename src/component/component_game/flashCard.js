@@ -3,9 +3,10 @@ import './flashCard.css';
 
 const Flashcards = ({ title }) => {
   return (
+    <>
+    <h3>{title}</h3>
+    <p>Jelajahi Keajaiban {title}</p>
     <div className="flashcards">
-      <h3>{title}</h3>
-      <p>Jelajahi Keajaiban {title}</p>
       <ul>
         <li>Pengertian Biologi dan Biokimia</li>
         <li>Struktur dan Fungsi Sel</li>
@@ -15,6 +16,7 @@ const Flashcards = ({ title }) => {
         <li>Imunitas dan Sistem Kekebalan</li>
       </ul>
     </div>
+  </>
   );
 };
 

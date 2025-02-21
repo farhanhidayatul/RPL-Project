@@ -23,7 +23,8 @@ const CardMapel = ({ logo, title, subtitle, description, features = [] }) => {
           </div>
         ))}
       </div>
-      <button className="share-button">Share</button>
+      <button className="share-button">
+        Share</button>
     </div>
   );
 };

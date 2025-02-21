@@ -5,7 +5,6 @@ import Leaderboard from '../component/component_game/leaderboard';
 import Skills from '../component/component_game/skill';
 import Flashcards from '../component/component_game/flashCard';
 import CardMapel from '../component/component_game/cardSS';
-// import play from '../images/play.png'
 
 const GamePage = () => {
   const navigate = useNavigate();
@@ -76,8 +75,12 @@ const GamePage = () => {
         </div>
         <div className="main-content">
           <div className="actions">
-            <button className="action-button" onClick={handleStart} id="mulai-button"><p>Mulai</p></button>
-            <button className="action-button" id="flash-button">Flashcards</button>
+            <button className="action-button" onClick={handleStart} id="mulai-button">
+            <img className="icon icon-saintek" src={require("../images/Play.svg").default} alt="Play icon" draggable="false" />
+            Mulai</button>
+            <button className="action-button" id="flash-button">
+            <img className="icon icon-saintek" src={require("../images/Lamp.svg").default} alt="Lamp icon" draggable="false" />
+            Flashcards</button>
           </div>
           <Skills />
         </div>

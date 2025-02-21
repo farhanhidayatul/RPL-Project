@@ -3,7 +3,7 @@
 /* ================================ */
 .leaderboard {
   background: rgba(255, 255, 255, 0.6); /* Lebih transparan agar lebih modern */
-  border-radius: 40px;
+  border-radius: 20px;
   padding: 20px;
   width: 300px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -280,7 +280,8 @@
   }
 
   .leaderboard-gamePage {
-    top: 45vh;
+    position: absolute;
+    top: 58.5vh;
     right: 950px;
   }
 
