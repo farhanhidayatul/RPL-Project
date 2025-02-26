@@ -79,6 +79,8 @@
     margin-bottom: 20px;
 }
 
+/* Responsive Area Gamepage*/
+
 /* ✅ Tablet (lebar max 1024px) */
 @media (max-width: 1024px) {
     .game-page-content {
@@ -124,8 +126,6 @@
         font-size: 14px;
     }
 }
-
-/* Responsive Area Gamepage*/
 
 /* ✅ Mobile Kecil (max 480px) */
 @media (max-width: 480px) {
