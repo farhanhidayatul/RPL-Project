@@ -124,7 +124,9 @@
         font-size: 14px;
     }
 }
+
 /* Responsive Area Gamepage*/
+
 /* ✅ Mobile Kecil (max 480px) */
 @media (max-width: 480px) {
     .back-button {
